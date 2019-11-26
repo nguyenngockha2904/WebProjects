@@ -1,0 +1,14 @@
+.p1 {
+    color:rgb(223, 83, 83);
+}
+#p2 {
+    color: violet;
+}
+
+body {
+    background-image: url("../img/harley-davidson-56R8TzG7Lzc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center center center center;
+    background-size: cover;
+    background-attachment: fixed;
+}

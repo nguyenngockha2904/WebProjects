@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-image: url('./images/header-background.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.banner h1{
+    color: white;
+    padding-top: 100px;
+    margin-left: 50px;
+}
+
+.banner p{
+    color: white;
+    margin-left: 50px;
+}
+
+.main-content {
+    background-color: #e1e1d0;
+    padding: 25px 20px;
+}
+
+.main-content p{
+    color: #878787;
+    margin-top: 10px;
+}
+
+.main-content .galery{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.main-content .galery .part1{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline; 
+}
+.main-content .galery .part2{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.main-content .galery h2{
+    color: white;
+}
+
+.main-content .galery .text-center{
+    /* text-align: center;
+    line-height: 150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content .galery .mexico{
+    background-image: url(./images/mexico.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 47%;
+    height: 135px;
+    margin-bottom: 25px;
+    margin-right: 3%;
+}
+
+.main-content .galery .tokyo{
+    background-image: url(./images/tokyo.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 47%;
+    height: 135px;
+    margin-bottom: 25px;
+    margin-right: 3%;
+}
+
+.main-content .galery .newyork{
+    background-image: url(./images/newyork.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 47%;
+    height: 135px;
+    margin-bottom: 25px;
+    margin-right: 3%;
+}
+
+.main-content .galery .paris{
+    background-image: url(./images/paris.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    width: 47%;
+    height: 135px;
+    margin-bottom: 25px;
+    margin-right: 3%;
+
+}
+
+.main-content .galery .invite{
+    background-image: url(./images/invite.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    width: 30%;
+    height: 295px;
+}
+
+.end-content h2{
+    color: Black;
+}
+.end-content p{
+    margin-top: 20px;
+}
+
+.end-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.end-content .travel{
+    width: 20%;
+    margin-left: 50px;
+}
+
+.end-content .host{
+    width: 20%;
+    margin-left: 170px;
+}
+
+.end-content .trust{
+    width: 20%;
+    margin-left: 170px;
+}
+

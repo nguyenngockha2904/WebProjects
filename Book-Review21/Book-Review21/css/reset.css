@@ -1,0 +1,77 @@
+#forgotPassword-screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#forgotPassword-screen .forgotPassword-form-container {
+    border: 1px solid #ffffff33;
+    border-radius: 20px;
+}
+
+#forgotPassword-screen .forgotPassword-form-container img.logo {
+    width: 30%;
+    display: block;
+    margin: 15px auto;
+}
+
+#forgotPassword-screen .forgotPassword-form-container h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+#forgotPassword-screen .forgotPassword-form-container .input-wrapper {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#forgotPassword-screen .forgotPassword-form-container .input-wrapper .error {
+    color: red;
+    text-align: center;
+}
+
+#forgotPassword-screen .forgotPassword-form-container form#forgotPassword-form .button-group {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#forgotPassword-screen .forgotPassword-form-container form#forgotPassword-form .button-group a {
+    display: block;
+    font-size: 17px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+#forgotPassword-screen .forgotPassword-form-container form#forgotPassword-form .button-group input {
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: 1px solid #ffffff33;
+    margin-top: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#forgotPassword-screen .forgotPassword-form-container form#forgotPassword-form .button-group input:hover {
+    background-color: white;
+    color: black;
+}
+
+#forgotPassword-screen .forgotPassword-form-container form#forgotPassword-form .button-group a {
+    font-size: 17px;
+}
+
+#forgotPassword-screen .forgotPassword-form-container form#forgotPassword-form .button-group a:hover {
+    color: red;
+}
+
+#forgotPassword-screen .forgotPassword-form-container form#forgotPassword-form .button-group {
+    padding-bottom: 10px;
+}

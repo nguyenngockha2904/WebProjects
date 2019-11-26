@@ -1,0 +1,88 @@
+#login-screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-screen .login-form-container {
+    border: 1px solid #ffffff33;
+    border-radius: 20px;
+}
+
+#login-screen .login-form-container img.logo {
+    width: 30%;
+    display: block;
+    margin: 15px auto;
+}
+
+#login-screen .login-form-container h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+#login-screen .login-form-container form#login-form .input-wrapper {
+    margin: 15px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#login-screen .login-form-container form#login-form .input-wrapper .error {
+    color: red;
+    text-align: center;
+}
+
+#login-screen .login-form-container form#login-form .button-group {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-screen .login-form-container form#login-form .button-group a {
+    display: block;
+    font-size: 17px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+}
+
+#login-screen .login-form-container form#login-form .button-group a:hover {
+    color: red;
+}
+
+#login-screen .login-form-container form#login-form .button-group input {
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: 1px solid #ffffff33;
+    margin-top: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#login-screen .login-form-container form#login-form .button-group input:hover {
+    background-color: white;
+    color: black;
+}
+
+#login-screen .login-form-container form#login-form .forgot-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-screen .login-form-container form#login-form .forgot-password a {
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+#login-screen .login-form-container form#login-form .forgot-password a:hover {
+    color: red;
+}
