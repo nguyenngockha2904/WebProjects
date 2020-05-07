@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.top{
+    height:60px;
+    width:100%;
+    background-color: black;
+    margin:0;
+    padding: 0;
+}
+.container{
+    width:1000px;
+    margin: 0 auto;
+}
+
+.cart{
+    float: right;
+    padding-top: 5px;
+    text-align: center;
+}
+.cart img{
+    width: 25px;
+    height: 25px;
+}
+.cart p{
+    margin-top: 2px;
+    padding: 0;
+   
+}
+.cart a:link ,.cart a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+.logo{
+    text-align: center;
+    border-bottom: solid #c5bcbc thin;
+}
+.logo a:link,.logo a:visited{
+    color:black;
+    text-decoration: none;
+}
+.menu{
+    
+}
+#divleft{
+    width:60%;
+    height: 70px;
+    float: left;
+}
+#divleft ul{
+    list-style-type: none;
+}
+#divleft ul li{
+    float: left;
+    padding-top: 5px;
+    padding-right: 35px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#divleft ul li a{
+    text-decoration: none;
+    color: black;
+}
+#divleft ul li a:hover{
+    color: green;
+}
+#divright{
+    width:40%;
+    height: 70px;
+    float: left;
+    text-align:right;
+    position: relative;
+}
+#containSearch{
+    padding-top: 15px;
+}
+#btnS{
+   border: transparent;
+   color: #6d6565;
+   cursor: pointer;
+   display: inline-block;
+   position: absolute;
+   top: 25px;
+   right: 11px;
+}
+#txtS{
+    padding: 10px;
+    border: 0;
+}
+.banner img{
+    width: 100%;
+    height: 760px;
+}
+.about{
+    padding-top: 15px;
+}
+.sanphamnoibat{
+    float: left;
+    padding: 0;
+    margin: 20px;
+}
+.sanphamnoibat img{
+    width: 293px;
+    height:165px;
+}
+.oneproduct{
+    padding:0;
+    margin: 17px 5px 17px 5px;
+    width: 240px;
+    float: left;    
+}
+.hinhproduct img{
+    width: 192px;
+    height: 129px;
+    /* margin-left: 29px; */
+}
+.infoproduct{
+    /* text-align:center; */
+    /* margin-right: 44px; */
+}
+
+.infoproduct img{
+    width: 25px;
+    height: 15px;
+}
+.infoproduct h4, .infoproduct div{
+    margin-right: 94px;
+}
+.infoHost{
+    padding-top: 10px;
+}
+.info{
+    padding-top: 65px;
+    margin-left: 9px;
+    width:240px ;
+    float: left;
+}
+.info li{
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+.info ul{
+    padding-left: 0px;
+}
+.info ul li a:link,.info ul li a:visited{
+    text-decoration: none;
+    color: #6d6565;
+}
+.info ul li a:hover{
+    color: green;
+}
+span.social{
+    width: 28px;
+    height:31px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#Facebook{
+    background: url(Images/products/icons.png);
+    background-position: 0 0;
+    margin-bottom: 17px;
+}
+#Twitter{
+    background: url(Images/products/icons.png);
+    background-position: -95px 0;
+    margin-bottom: 17px;
+
+}
+#Google{
+    background: url(Images/products/icons.png);
+    background-position: -64px 0;
+    margin-bottom: 13px;
+}
+.phanvung{
+    width:100%;
+}
+.childfooter{
+    width: 50%;
+    float: left;
+}
+#txtEmail{
+    border: none;
+    padding: 4px;
+}
+#rightfooter{
+    text-align: right;
+}

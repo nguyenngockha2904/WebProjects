@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>bai tap Javascript- Day </title>
+		<meta charset="utf-8">
+		<script>
+			
+			var now= new Date(); // mặc định lấy ngày hiện hành 
+			//alert(now);
+			var valentine=new Date(2020,1,14); // năm,tháng ,ngày
+			// mặc định của tháng là từ 0-11 nên phải tăng lên 1 số
+			//alert(valentine);
+			var ngaygiothangnam=new Date(1999,3,29,2,32,1);
+			//alert(ngaygiothangnam);
+			alert("ngày hôm nay :"+now);
+			alert("ngay hom qua : "+ new Date(now.getFullYear(),now.getMonth(),now.getDate()-1));
+			alert("ngay mai : "+ new Date(now.getFullYear(),now.getMonth(),now.getDate()+1));
+			alert("ngay mốt : "+ new Date(now.getFullYear(),now.getMonth(),now.getDate()+2));
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html> 

@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Bai Tap-JavaScript-KiemTra</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form action="#"><!--Kiểm tra nội dung nhập có phải số không-->
+		
+			Số A: <input type="text" id="soA" placeholder="nhập số a" size="30"></input>
+			<br>
+			Số B: <input type="text" id="soB" placeholder="nhập số b" size="30"></input>
+			<Br>
+			Kết quả: <input type="text" id="ketqua" size="27" readonly></input>
+			<br>
+			<input type="button" value="Tính Tổng" onClick="return Tinhtong()"></input>
+			<input id="reset" type="reset" value="xoá" ></input>
+		</form>
+		<script type="text/javascript">
+			function Tinhtong(){
+				var a=document.getElementById("soA");
+				var b=document.getElementById("soB");
+				var kq=document.getElementById("ketqua");
+				//NaN= not a number -->hàm kiểm tra số : isNaN(chuỗi)
+				-->nếu là số trả về false -->nếu không phải số : trả về True
+				if(isNaN(a.value)|| isNaN(b.value)){
+					alert("vui lòng nhập số a và số b");
+					return false;
+				}else{
+					//soa= parseInt(a.value);
+					//sob= parseInt(b.value);
+					//kq.value=soa+sob;
+					kq.value=parseInt(a.value)+parseInt(b.value);
+					return true;
+				}
+				
+			}
+		</script>
+	</body>
+</html>

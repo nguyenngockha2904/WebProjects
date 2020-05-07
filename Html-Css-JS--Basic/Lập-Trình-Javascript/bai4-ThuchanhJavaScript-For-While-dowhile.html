@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>thuc hanh javascript -for</title>
+		<meta charset="utf-8">
+		<script	type="text/javascript">
+			function vonglapfor(n){
+				for(i=0;i<n;i++)
+				document.write("vòng lập for thứ "+(i+1)+" <br>");
+			}
+			function vonglapwhile(toida){
+				i=0;
+				while(i<toida){  //nếu thoả điều kiện trong while thì thực hiện khối lệnh dưới đến khi nào không còn thoã điều kiện thì break
+					document.write(" vòng lập while thứ "+(i+1)+"<br>");
+					i++;
+				}//kiểm tra trước rồi mới thực hiện
+			}
+			function vonglapDoWhile(toida){ //lam DO trước rồi kiểm tra While sau
+				i=0;
+				do{
+					document.write("vòng lập do while thứ "+i+"<br>");
+					i++;
+				}while(i<toida);
+			}
+		</script>
+	</head>
+	<body>
+		<input type="button" value="vòng lập for" onclick="vonglapfor(30)"></input>
+		<input type="button" value="vòng lập while" onclick="vonglapwhile(0)"></input>
+		<input type="button" value="vòng lập do while" onclick="vonglapDoWhile(0)"></input>
+	</body>
+</html>

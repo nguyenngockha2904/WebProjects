@@ -1,0 +1,12 @@
+a:link{
+    color:red;
+}
+.thea:visited{
+    color: blue;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: black;
+}

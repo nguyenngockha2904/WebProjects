@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Javascript-Function</title>
+		<script type="text/javascript">
+			function kiemtranhap(giatri){
+				if(giatri==8){
+					alert("số tám");
+				}
+				else{
+					alert("đéo phải số 8 nhập lại dùm t cái mlllll");
+				}
+			}
+			function xethoclucsinhvien(dtb){
+				switch(dtb){
+					case 9: 
+					{
+						alert("học lực xuất sắc");
+						break;
+					}
+					case 8:
+					{
+						alert("học lực giỏi");
+						break;
+					}
+					case 7:
+					{
+						alert("học lực Khá");
+						break;
+					}
+					case 6:
+					{
+						alert("học lực TB");
+						break;
+					}
+					default: {
+						alert("Chưa xét");
+					}
+				}
+			}
+		</script>
+	
+	</head>
+	<body>
+		<form>
+			<input type="button" value="kt" onclick="kiemtranhap(9)"></input>
+			<input type="button" value="kt TB" onclick="xethoclucsinhvien(8)"></input>
+		</form>
+	</body>
+</html>

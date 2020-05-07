@@ -1,0 +1,6 @@
+ul li{
+    list-style-type: decimal-leading-zero;
+}
+ol li{
+    list-style-image:url(01.png);
+}
